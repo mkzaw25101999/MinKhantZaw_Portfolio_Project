@@ -290,3 +290,99 @@ footer {
   padding: 1.5rem;
   color: #60a5fa;
 }
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  /* Hero Section */
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  .sub-title {
+    font-size: 1.1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  /* Container */
+  .container {
+    padding: 1rem;
+  }
+
+  /* Card */
+  .card {
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  /* About Section */
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-picture {
+    width: 200px;
+    height: 280px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Contact Grid */
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Skills Section */
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .tech-icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skill-row {
+    grid-template-columns: 1fr;
+  }
+
+  /* Bottom Info */
+  .bottom-info {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  /* Projects */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  #hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .tech-icons {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+}
